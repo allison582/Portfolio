@@ -7,7 +7,7 @@
 	MENU LAYOUT
 	DO NOT EDIT This Section (unless you know what you are doing)
 -----------------------------------*/
-.menu{margin:0;padding:0;line-height:100%;
+.menu{margin:0;padding:0;line-height:100%;text-align:right;
 font-size:0; /* Kill white space gap between LI elements */
 position:relative;z-index:1000;}
 

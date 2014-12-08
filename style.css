@@ -9,11 +9,18 @@
 -----------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
+@font-face {
+  font-family: 'Campan';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Campan'), url(css/fonts/Campanlta.otf) format('otf');
+}
+
 /*---------------------------------
 	OVERRIDES
 -----------------------------------*/
 h1,h2,h3,h4,h5,h6{
-font-family: "Arimo", arial, verdana, sans-serif;
+font-family: "Gill Sans", arial, verdana, sans-serif;
 font-weight:normal;
 }
 
@@ -41,11 +48,92 @@ font-family: "Arimo", arial, verdana, sans-serif;
 /*---------------------------------
 	LAYOUT
 -----------------------------------*/
+
+#home_page {
+
+  background: url(img/jungly.jpg) no-repeat center center fixed; 
+  background-size: 100%;
+}
+
+#home_page body {margin-top: 10px;}
+
+#home_page h1 {
+	color: #c3ae7e;
+	font-variant: small-caps;
+	font-size: 5em;
+	line-height: 56%;
+	text-align: center;
+	letter-spacing: 4px;
+	
+}
+
+#home_page .col_12{
+
+		padding-left: 428px;
+		padding-right: 428px;
+}
+
+#home_page h1:last-of-type {
+	padding-bottom: 12px;
+	border-bottom: 1px solid white;
+
+}
+
+#home_page h4 {
+	font-size: 1.9em;
+	color: #c3ae7e;
+	font-family: "Campan", sans-serif;
+	text-align: center;
+	line-height: 90%;
+}
+
+#home_page  a:link{
+	text-decoration: none;
+	color: white;
+}
+
+#home_page  a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#home_page a:hover {
+	font-size: 1.2em;
+color: #7b8661;
+	
+
+}
+
+.menu {
+	background:none;
+	border-style:none;
+}
+
+header a:hover{background-color: #7b8661;}
+
+
+
+.col_12 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.slideshow img{
+
+margin-left: auto;
+margin-right: auto;
+	height: 600px;
+	width: auto;
+	
+}
+
+.slideshow li{text-align: center;}
+
 body{
 margin:0;
 padding:0 0 0 0;
 color:#000;
-background:#efefef url(css/img/gray_jean.png);
+
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
@@ -125,6 +213,8 @@ z-index:1000;
 		line-height:100%;
 		font-size: 1.2em;
 		}
+
+
 
 .callout{
 background:#4598ef;/*#86dc00;*/
