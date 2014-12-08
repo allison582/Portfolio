@@ -38,7 +38,9 @@ font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 .menu{
-font-family: "Arimo", arial, verdana, sans-serif;
+font-family: "Gill Sans", arial, verdana, sans-serif;
+background:none;
+border-style:none;
 }
 
 blockquote{
@@ -55,7 +57,11 @@ font-family: "Arimo", arial, verdana, sans-serif;
   background-size: 100%;
 }
 
-#home_page body {margin-top: 10px;}
+#home_page body {margin-top: 5px;}
+
+.not_home_page {
+	background-color: #c3ae7e;
+}
 
 #home_page h1 {
 	color: #c3ae7e;
@@ -97,19 +103,14 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	color: white;
 }
 
-#home_page a:hover {
+#home_page .grid a:hover {
 	font-size: 1.2em;
 color: #7b8661;
-	
-
 }
 
-.menu {
-	background:none;
-	border-style:none;
+header a:hover
+{background-color: #7b8661;
 }
-
-header a:hover{background-color: #7b8661;}
 
 
 
@@ -118,16 +119,18 @@ header a:hover{background-color: #7b8661;}
 	text-align: center;
 }
 
-.slideshow img{
-
-margin-left: auto;
-margin-right: auto;
-	height: 600px;
-	width: auto;
-	
+.slideshow {
+	background-color: #c3ae7e;
 }
 
-.slideshow li{text-align: center;}
+
+.slideshow img{
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: auto;
+}
+
 
 body{
 margin:0;

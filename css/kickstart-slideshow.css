@@ -56,12 +56,12 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #ccc;
+	/*-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
 	border: solid #fff 5px;
 	left: 0;
-	background: #fff;
+	background: #fff;*/
 }
 
 .bx-wrapper .bx-pager,
@@ -215,7 +215,7 @@
 }
 
 .bx-wrapper .bx-caption span {
-	color: #fff;
+	/*color: #fff;*/
 	font-family: Arial;
 	display: block;
 	font-size: .85em;
