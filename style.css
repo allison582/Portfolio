@@ -58,7 +58,8 @@ font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 #contact_page body {
-	background-image: "jungly_blurry.jpg";
+	background: url(img/screenshot) no-repeat center center fixed; 
+  background-size: 100%;
 }
 
 #home_page body {margin-top: 5px;}
@@ -75,7 +76,6 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	line-height: 56%;
 	text-align: center;
 	letter-spacing: 4px;
-	
 }
 
 #home_page .col_12{
@@ -100,21 +100,54 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 }
 
-#home_page  a:link{
+/*HOME PAGE TOP MENU*/
+#home_page  .menu a:link{
 	text-decoration: none;
 	color: white;
 }
 
-#home_page  a:visited{
+#home_page  .menu a:visited{
 	text-decoration: none;
 	color: white;
 }
 
+#home_page  .menu a:hover{
+	text-decoration: none;
+	color: #c3ae7e;
+}
+
+/*HOME PAGE LINKS TO OTHER PAGES*/
+#home_page .grid a:link {
+	text-decoration: none;
+	color: white;
+}
+
+#home_page  .grid a:visited{
+	text-decoration: none;
+	color: white;
+}
 #home_page .grid a:hover {
 	font-size: 1.2em;
 color: #7b8661;
 }
 
+
+/*TOP MENU FOR OTHER PAGES*/
+#not_home_page a:hover {
+	color: #7b8661;
+}
+
+#not_home_page a:link {
+	text-decoration: none;
+	color: white;
+}
+#not_home_page a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*CONTACT PAGE MENU*/
 #contact_page  a:link{
 	text-decoration: none;
 	color: black;
@@ -130,22 +163,41 @@ color: #7b8661;
 color: #7b8661;
 }
 
-.col_12 {
-	margin-top: 25px;
-	text-align: center;
-}
-
 .slideshow {
 	background-color: #c3ae7e;
 }
+/*
+.slideshow #tabr1 img{
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: auto;
+}*/
 
-.slideshow img{
+#tabr1 .slideshow img{
 margin-left: auto;
 margin-right: auto;
 height: 600px;
 width: auto;
 }
 
+#tabr2 .slideshow img{
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: auto;
+}
+
+#tabr3 .slideshow img{
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+width: auto;
+}
+
+#graphic_design img {
+	max-height: 500px;
+}
 
 body{
 margin:0;
