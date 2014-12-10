@@ -57,7 +57,12 @@ font-family: "Arimo", arial, verdana, sans-serif;
   background-size: 100%;
 }
 
+#contact_page body {
+	background-image: "jungly_blurry.jpg";
+}
+
 #home_page body {margin-top: 5px;}
+#contact_page body {margin-top: 5px;}
 
 .not_home_page {
 	background-color: #c3ae7e;
@@ -91,6 +96,8 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	font-family: "Campan", sans-serif;
 	text-align: center;
 	line-height: 90%;
+	margin-bottom: 60px;
+
 }
 
 #home_page  a:link{
@@ -108,21 +115,29 @@ font-family: "Arimo", arial, verdana, sans-serif;
 color: #7b8661;
 }
 
-header a:hover
-{background-color: #7b8661;
+#contact_page  a:link{
+	text-decoration: none;
+	color: black;
 }
 
+#contact_page  a:visited{
+	text-decoration: none;
+	color: purple;
+}
 
+#contact_page a:hover {
+	font-size: 1.2em;
+color: #7b8661;
+}
 
 .col_12 {
-	margin-top: 30px;
+	margin-top: 25px;
 	text-align: center;
 }
 
 .slideshow {
 	background-color: #c3ae7e;
 }
-
 
 .slideshow img{
 margin-left: auto;
@@ -136,10 +151,15 @@ body{
 margin:0;
 padding:0 0 0 0;
 color:#000;
-
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
+
+pre {font-family: "Gill Sans", arial, verdana, sans-serif;
+font-size: 1.2em;
+background:none;
+border-style:none;
+color: black;}
 
 #wrap{
 width:100%;
