@@ -86,6 +86,8 @@ jQuery(document).ready(function($){
 		tabs.removeClass('current');
 		$(this).parent().addClass('current');
 		$(tab_next).show();
+		$('.bx-viewport').css('height','0px');
+		$(tab_next).children('.bx-wrapper').children('.bx-viewport').css('height','600px');
 		history.pushState( null, null, window.location.search + $(this).attr('href') );
 		return false;
 	});

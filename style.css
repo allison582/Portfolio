@@ -57,8 +57,9 @@ font-family: "Arimo", arial, verdana, sans-serif;
   background-size: 100%;
 }
 
-#contact_page body {
-	background: url(img/screenshot.jpg) no-repeat center center fixed; 
+#contact_page {
+
+	background: url(contact/img/jungly_blurry.jpg) no-repeat center center fixed; 
   background-size: 100%;
 }
 
@@ -69,7 +70,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	background-color: #c3ae7e;
 }
 
-#home_page h1 {
+h1 {
 	color: #c3ae7e;
 	font-variant: small-caps;
 	font-size: 5em;
@@ -100,18 +101,18 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 }
 
-/*HOME PAGE TOP MENU*/
-#home_page  .menu a:link{
+
+.menu a:link{
 	text-decoration: none;
 	color: white;
 }
 
-#home_page  .menu a:visited{
+.menu a:visited{
 	text-decoration: none;
 	color: white;
 }
 
-#home_page  .menu a:hover{
+.menu a:hover{
 	text-decoration: none;
 	color: #c3ae7e;
 }
@@ -122,7 +123,7 @@ font-family: "Arimo", arial, verdana, sans-serif;
 	color: white;
 }
 
-#home_page  .grid a:visited{
+#home_page .grid a:visited{
 	text-decoration: none;
 	color: white;
 }
@@ -131,48 +132,27 @@ font-family: "Arimo", arial, verdana, sans-serif;
 color: #7b8661;
 }
 
-
-/*TOP MENU FOR OTHER PAGES*/
-#not_home_page a:hover {
-	color: #7b8661;
-}
-
-#not_home_page a:link {
-	text-decoration: none;
-	color: white;
-}
-#not_home_page a:visited{
+/*CONTACT PAGE EMAIL LINK*/
+#contact_page .grid a:link {
 	text-decoration: none;
 	color: white;
 }
 
-
-/*CONTACT PAGE MENU*/
-#contact_page  a:link{
+#contact_page .grid a:visited{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
-
-#contact_page  a:visited{
-	text-decoration: none;
-	color: purple;
-}
-
-#contact_page a:hover {
+#contact_page .grid a:hover {
 	font-size: 1.2em;
 color: #7b8661;
 }
 
+
 .slideshow {
 	background-color: #c3ae7e;
+
 }
-/*
-.slideshow #tabr1 img{
-margin-left: auto;
-margin-right: auto;
-height: 600px;
-width: auto;
-}*/
+
 
 #tabr1 .slideshow img{
 margin-left: auto;
