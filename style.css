@@ -175,8 +175,12 @@ height: 600px;
 width: auto;
 }
 
-#graphic_design img {
-	max-height: 500px;
+#graphic_design #tabr4 img {
+	max-height: 800px;
+}
+
+#graphic_design #tabr3 img {
+	max-width: 400px;
 }
 
 body{
@@ -191,7 +195,13 @@ pre {font-family: "Gill Sans", arial, verdana, sans-serif;
 font-size: 1.2em;
 background:none;
 border-style:none;
-color: black;}
+color: black;
+}
+/*
+
+#graphic_design .col_3 img:hover {width: 200%; z-index: 200;}
+*/
+
 
 #wrap{
 width:100%;
