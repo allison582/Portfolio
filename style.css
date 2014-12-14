@@ -101,7 +101,6 @@ h1 {
 
 }
 
-
 .menu a:link{
 	text-decoration: none;
 	color: white;
@@ -132,6 +131,19 @@ h1 {
 color: #7b8661;
 }
 
+
+#contact_page .col_12{
+
+		padding-left: 428px;
+		padding-right: 428px;
+}
+
+#contact_page h1:last-of-type {
+	padding-bottom: 12px;
+	border-bottom: 1px solid white;
+	margin-bottom: 50px;
+
+}
 /*CONTACT PAGE EMAIL LINK*/
 #contact_page .grid a:link {
 	text-decoration: none;
@@ -197,10 +209,12 @@ background:none;
 border-style:none;
 color: black;
 }
-/*
 
-#graphic_design .col_3 img:hover {width: 200%; z-index: 200;}
-*/
+.gallery img {  
+	float: left;
+    height: 300px;
+    margin: 5px;
+}
 
 
 #wrap{
