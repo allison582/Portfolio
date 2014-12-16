@@ -226,6 +226,17 @@ color: black;
     margin: 5px;
 }
 
+#zine img {
+	float: left;
+	margin: 5px;
+	height: 150px;}
+
+#zine a {
+	float: left;
+	margin: 5px;
+	height: 20px;
+}
+
 
 #wrap{
 width:100%;
