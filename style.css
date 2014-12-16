@@ -158,6 +158,15 @@ color: #7b8661;
 	font-size: 1.2em;
 color: #7b8661;
 }
+
+
+.tabs.left li a {
+	font-family: "Campan", arial, verdana, sans-serif;
+	font-size: 1.3em;
+	color: #7b8661; 
+	padding: 20px;}
+
+
 /*
 
 .slideshow {
@@ -209,6 +218,7 @@ background:none;
 border-style:none;
 color: black;
 }
+
 
 .gallery img {  
 	float: left;
