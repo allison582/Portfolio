@@ -53,13 +53,13 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 #home_page {
 
-  background: url(img/jungly.jpg) no-repeat center center fixed; 
+  background: url(img/home_page/jungly.jpg) no-repeat center center fixed; 
   background-size: 100%;
 }
 
 #contact_page {
 
-	background: url(contact/img/jungly_blurry.jpg) no-repeat center center fixed; 
+	background: url(img/contact/jungly_blurry.jpg) no-repeat center center fixed; 
   background-size: 100%;
 }
 
