@@ -24,27 +24,10 @@ font-family: "Gill Sans", arial, verdana, sans-serif;
 font-weight:normal;
 }
 
-thead th,
-tbody th{
-font-family: "Arimo", arial, verdana, sans-serif;
-}
-
-button,
-a.btn,
-input[type="submit"],
-input[type="reset"],
-input[type="button"]{
-font-family: "Arimo", arial, verdana, sans-serif;
-}
-
 .menu{
 font-family: "Gill Sans", arial, verdana, sans-serif;
 background:none;
 border-style:none;
-}
-
-blockquote{
-font-family: "Arimo", arial, verdana, sans-serif;
 }
 
 /*---------------------------------
@@ -59,17 +42,15 @@ font-family: "Arimo", arial, verdana, sans-serif;
 
 #contact_page {
 
-	background: url(img/contact/jungly_blurry.jpg) no-repeat center center fixed; 
+  background: url(img/contact/jungly_blurry.jpg) no-repeat center center fixed; 
   background-size: 100%;
 }
 
-#home_page body {margin-top: 5px;}
-#contact_page body {margin-top: 5px;}
-
-.not_home_page {
-	background-color: #c3ae7e;
+header {
+	margin-bottom: 30px;
 }
 
+/*FORMAT FOR HEADLINE SECTIONS OF HOME PAGE*/
 h1 {
 	color: #c3ae7e;
 	font-variant: small-caps;
@@ -79,16 +60,14 @@ h1 {
 	letter-spacing: 4px;
 }
 
-#home_page .col_12{
-
-		padding-left: 428px;
-		padding-right: 428px;
+#home_page h2 {
+	font-size: 3.9em;
 }
 
 #home_page h1:last-of-type {
 	padding-bottom: 12px;
-	border-bottom: 1px solid white;
-
+	text-decoration: underline;
+	
 }
 
 #home_page h4 {
@@ -97,135 +76,114 @@ h1 {
 	font-family: "Campan", sans-serif;
 	text-align: center;
 	line-height: 90%;
-	margin-bottom: 60px;
-
+	margin-bottom: 70px;
 }
 
+/* HOME PAGE LINKS TO OTHER PAGES*/
+
+#home_page h2 {
+	margin-left: 200px;
+}
+
+#home_page a:link{
+	text-decoration: none;
+	color: white;
+}
+
+#home_page a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#home_page a:hover{
+	font-size: 1.1em;
+	color: #7b8661;
+}
+
+/*TOP NAV BAR STYLE*/
 .menu a:link{
+	font-size: 1.1em;
 	text-decoration: none;
 	color: white;
 }
 
 .menu a:visited{
+	font-size: 1.1em;
 	text-decoration: none;
 	color: white;
 }
 
 .menu a:hover{
-	text-decoration: none;
-	color: #c3ae7e;
+	font-size: 1.1em;
+	color: #7b8661;
 }
 
-/*HOME PAGE LINKS TO OTHER PAGES*/
-#home_page .grid a:link {
-	text-decoration: none;
-	color: white;
-}
+/*CONTACT PAGE STYLING*/
 
-#home_page .grid a:visited{
-	text-decoration: none;
-	color: white;
-}
-#home_page .grid a:hover {
-	font-size: 1.2em;
-color: #7b8661;
-}
-
-
-#contact_page .col_12{
-
-		padding-left: 428px;
-		padding-right: 428px;
+#contact_page h2 {
+	font-size: 3em;
+	line-height: .9em;
 }
 
 #contact_page h1:last-of-type {
-	padding-bottom: 12px;
-	border-bottom: 1px solid white;
-	margin-bottom: 50px;
-
+	margin-bottom: 175px;
 }
-/*CONTACT PAGE EMAIL LINK*/
-#contact_page .grid a:link {
+
+#email:link {
 	text-decoration: none;
 	color: white;
 }
 
-#contact_page .grid a:visited{
+#email:visited{
 	text-decoration: none;
 	color: white;
 }
-#contact_page .grid a:hover {
+#email:hover {
 	font-size: 1.2em;
-color: #7b8661;
+	color: #7b8661;
 }
 
+/*BACKGROUND COLOR FOR CONTENT PAGES*/
+.not_home_page {
+	background-color: #c3ae7e;
+}
 
+.not_home_page h2 {
+	text-decoration: underline;
+}
+
+.not_home_page h5 {
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.not_home_page p {
+	text-align: left;
+	font-size: 1.5em;
+	margin: 250px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#story_plan {
+	font-style: italic;
+}
+
+/*TAB STYLE */
 .tabs.left li a {
 	font-family: "Campan", arial, verdana, sans-serif;
 	font-size: 1.3em;
 	color: #7b8661; 
 	padding: 20px;}
 
-
-/*
-
-.slideshow {
-	background-color: #c3ae7e;
-
-}
-
-
-#tabr1 .slideshow img{
-margin-left: auto;
-margin-right: auto;
-height: 600px;
-width: auto;
-}
-
-#tabr2 .slideshow img{
-margin-left: auto;
-margin-right: auto;
-height: 600px;
-width: auto;
-}
-
-#tabr3 .slideshow img{
-margin-left: auto;
-margin-right: auto;
-height: 600px;
-width: auto;
-}
-
-#graphic_design #tabr4 img {
-	max-height: 800px;
-}
-
-#graphic_design #tabr3 img {
-	max-width: 400px;
-}
-*/
-body{
-margin:0;
-padding:0 0 0 0;
-color:#000;
-font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
-text-shadow: 0 0 1px transparent; /* google font pixelation fix */
-}
-
-pre {font-family: "Gill Sans", arial, verdana, sans-serif;
-font-size: 1.2em;
-background:none;
-border-style:none;
-color: black;
-}
-
-
+/*GALLERY STYLING*/
 .gallery img {  
 	float: left;
     height: 300px;
     margin: 5px;
 }
 
+/*ZINE IN GRAPHIC DESIGN SPECIAL STYLING*/
 #zine img {
 	float: left;
 	margin: 5px;
@@ -237,108 +195,3 @@ color: black;
 	height: 20px;
 }
 
-
-#wrap{
-width:100%;
-background:#fff;
-margin:30px auto 30px auto;
-padding:0 2%;
-border:1px solid #ccc;
-}
-
-
-#footer{
-text-align:center;
-padding:20px;
-margin:0;
-border-top:1px solid #ddd;
-color:#999;
-font-size:0.8em;
-text-shadow:0px 1px 1px #fff;
-position: relative;
-top:0;
-left:0;
-background:#fff;
-}
-
-	#link-top{
-	display:none;
-	}
-
-/* NAV BAR*/
-.navbar{
-position:fixed;
-top:0;
-left:0;
-width: 100%;
-background:#000;
-color:#fff;
-z-index:1000;
-}
-
-	.navbar #logo{
-	position:absolute;
-	top:0;
-	right:0;
-	padding:0.5em 1em;
-	font-size: 1.7em;
-	color:#efefef;
-	text-decoration:none;
-	}
-
-	.navbar span{
-	color:#86dc00;
-	}
-
-
-	.navbar ul{
-	display:inline-block;
-	margin:0;
-	padding:0;
-	}
-
-		.navbar li{
-		margin:0;
-		padding:0;
-		display:inline-block;
-		}
-
-		.navbar li a{
-		display:inline-block;
-		color:#efefef;
-		padding:1em 1.3em;
-		text-decoration:none;
-		text-transform: uppercase;
-		line-height:100%;
-		font-size: 1.2em;
-		}
-
-
-
-.callout{
-background:#4598ef;/*#86dc00;*/
-padding:3em 0;
-color:#fff;
-box-shadow:inset 0 0 10px rgba(0,0,0,0.2);
-text-align: center;
-text-shadow:0px 1px 3px rgba(0,0,0,0.2);
-display:block;
-}
-	.callout + div.grid{margin-top:50px;}
-	 a.callout{cursor:pointer;}
-	 .callout i.icon-4x{font-size:6em;}
-	 .callout h4{margin-bottom:30px;}
-	 .callout-top{margin:50px 0 0 0;}
-	 .callout p{margin-bottom:0;}
-	 .callout .button{margin-top:10px;}
-	 .callout.green{background:#19ad0b;/*#86dc00;*/}
-
-#mc_embed_signup{
-padding:30px 0;
-}
-
-#ui-preview{
-border:5px solid #ddd;
-margin:30px 0;
-display:block;
-}
