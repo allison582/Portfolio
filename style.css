@@ -33,7 +33,7 @@ border-style:none;
 /*---------------------------------
 	LAYOUT
 -----------------------------------*/
-
+/*BACKGROUND IMAGES*/
 #home_page {
 
   background: url(img/home_page/jungly.jpg) no-repeat center center fixed; 
@@ -44,6 +44,13 @@ border-style:none;
 
   background: url(img/contact/jungly_blurry.jpg) no-repeat center center fixed; 
   background-size: 100%;
+}
+/*BACKGROUND FOR SHORT STORY*/
+#tabr2 .center {
+
+background: url(img/creative_writing/water.jpg) no-repeat center center fixed; 
+  background-size: 100%;
+ 
 }
 
 header {
@@ -67,7 +74,8 @@ h1 {
 #home_page h1:last-of-type {
 	padding-bottom: 12px;
 	text-decoration: underline;
-	
+	-moz-text-decoration-color: white;
+	text-decoration-color: white;
 }
 
 #home_page h4 {
@@ -143,7 +151,7 @@ h1 {
 	color: #7b8661;
 }
 
-/*BACKGROUND COLOR FOR CONTENT PAGES*/
+/*STYLING FOR CONTENT PAGES*/
 .not_home_page {
 	background-color: #c3ae7e;
 }
@@ -157,16 +165,20 @@ h1 {
 	text-transform: uppercase;
 }
 
+/*STYLE FOR SHORT STORY*/
 .not_home_page p {
 	text-align: left;
 	font-size: 1.5em;
-	margin: 250px;
+	margin: 300px;
 	margin-top: 20px;
 	margin-bottom: 0px;
+	font-family:  "times", serif;
+	font-weight:normal;
 }
 
 #story_plan {
 	font-style: italic;
+	padding-bottom: 30px;
 }
 
 /*TAB STYLE */
